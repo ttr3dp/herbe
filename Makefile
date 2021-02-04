@@ -22,6 +22,6 @@ uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/notify-send
 
 clean:
-	rm -f herbe
+	rm -f herbe *.orig *.rej
 
 .PHONY: all install uninstall clean
